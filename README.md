@@ -1,4 +1,4 @@
 # SmoothLuggage
 
-The system for scan and tracking your luggage, improving user experience.
+A system for scanning and tracking your luggage, improving the user experience.
 
