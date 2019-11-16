@@ -34,7 +34,6 @@
             app:popExitAnim="@anim/nav_default_pop_exit_anim"/>
     </fragment>
 
-
     <fragment
         android:id="@+id/nav_luggage_result"
         android:name="com.silwester.smoothluggagecustomer.ui.measure.LuggageResultFragment"
@@ -47,17 +46,5 @@
         android:name="com.silwester.smoothluggagecustomer.ui.gallery.GalleryFragment"
         android:label="@string/menu_gallery"
         tools:layout="@layout/fragment_gallery" />
-
-    <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.silwester.smoothluggagecustomer.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
-
-    <fragment
-        android:id="@+id/nav_tools"
-        android:name="com.silwester.smoothluggagecustomer.ui.tools.ToolsFragment"
-        android:label="@string/menu_tools"
-        tools:layout="@layout/fragment_tools" />
 
 </navigation>

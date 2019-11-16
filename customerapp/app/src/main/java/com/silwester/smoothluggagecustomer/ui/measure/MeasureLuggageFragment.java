@@ -22,11 +22,14 @@ import android.view.ViewGroup;
 import android.view.WindowManager;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.PopupWindow;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.navigation.Navigation;
 
 import com.google.ar.core.Anchor;
 import com.google.ar.core.ArCoreApk;
@@ -236,15 +239,15 @@ public class MeasureLuggageFragment extends Fragment {
             setupRenderer();
         }
 
-
         installRequested = false;
-//        Button measureButton = view.findViewById(R.id.done);
-//        measureButton.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Navigation.findNavController(view).navigate(R.id.measure_to_result);
-//            }
-//        });
+
+        Button measureButton = view.findViewById(R.id.done);
+        measureButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Navigation.findNavController(view).navigate(R.id.measure_to_result);
+            }
+        });
     }
 
     @Override
@@ -302,7 +305,6 @@ public class MeasureLuggageFragment extends Fragment {
             setupRenderer();
         }
 
-        showLoadingMessage();
         // Note that order matters - see the note in onPause(), the reverse applies here.
         session.resume();
         surfaceView.onResume();
@@ -359,19 +361,6 @@ public class MeasureLuggageFragment extends Fragment {
             // Permission denied with checking "Do not ask again".
             CameraPermissionHelper.launchPermissionSettings(getActivity());
         }
-    }
-
-    private void showLoadingMessage() {
-        getView().post(new Runnable() {
-            @Override
-            public void run() {
-                messageSnackbar = Snackbar.make(
-                        getView(),
-                        "Searching for surfaces...", Snackbar.LENGTH_INDEFINITE);
-                messageSnackbar.getView().setBackgroundColor(0xbf323232);
-                messageSnackbar.show();
-            }
-        });
     }
 
     private void setupRenderer() {
