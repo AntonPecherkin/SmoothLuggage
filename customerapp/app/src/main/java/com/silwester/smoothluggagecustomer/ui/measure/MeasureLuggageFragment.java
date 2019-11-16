@@ -154,6 +154,8 @@ public class MeasureLuggageFragment extends Fragment {
 
     //    OverlayView overlayViewForTest;
     private TextView tv_result;
+    private TextView accepted;
+    private TextView rejected;
     private FloatingActionButton fab;
 
     private GLSurfaceRenderer glSerfaceRenderer = null;
@@ -195,6 +197,8 @@ public class MeasureLuggageFragment extends Fragment {
     @Override
     public void onViewCreated(@NonNull final View view, @Nullable Bundle savedInstanceState) {
         tv_result = view.findViewById(R.id.tv_result);
+        accepted = view.findViewById(R.id.accepted);
+        rejected = view.findViewById(R.id.rejected);
         fab = view.findViewById(R.id.fab);
 
         for (int i = 0; i < cubeIconIdArray.length; i++) {
@@ -648,7 +652,7 @@ public class MeasureLuggageFragment extends Fragment {
                 // draw cube & line from last frame
                 if (anchors.size() < 1) {
                     // no point
-                    showResult("");
+                    showResult("", 0);
                 } else {
                     // draw selected cube
                     if (nowTouchingPointIndex != DEFAULT_VALUE) {
@@ -680,7 +684,7 @@ public class MeasureLuggageFragment extends Fragment {
 
                     // show result
                     String result = sb.toString().replaceFirst("[+]", "") + " = " + (((int) (total * 10f)) / 10f) + "cm";
-                    showResult(result);
+                    showResult(result, total);
                 }
 
                 // check if there is any touch event
@@ -897,11 +901,21 @@ public class MeasureLuggageFragment extends Fragment {
             return Math.sqrt(dx * dx + dz * dz + dy * dy);
         }
 
-        private void showResult(final String result) {
+        private void showResult(final String result, final double total) {
             getView().post(new Runnable() {
                 @Override
                 public void run() {
                     tv_result.setText(result);
+                    if (total == 0) {
+                        accepted.setVisibility(View.GONE);
+                        rejected.setVisibility(View.GONE);
+                    } else if (total <= 85) {
+                        accepted.setVisibility(View.VISIBLE);
+                        rejected.setVisibility(View.GONE);
+                    } else if (total > 85) {
+                        accepted.setVisibility(View.GONE);
+                        rejected.setVisibility(View.VISIBLE);
+                    }
                 }
             });
         }

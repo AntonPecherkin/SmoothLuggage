@@ -23,16 +23,18 @@
         android:layout_marginTop="25sp"
         android:layout_marginEnd="10sp"
         android:clickable="false"
+
         android:text="Registration/Check in you luggage" />
 
     <TextView
+        android:id="@+id/chCheckInDesc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/chCheckIn"
         android:layout_marginStart="20sp"
         android:drawableLeft="@drawable/ic_icon_info"
-        android:text="  Confirmed on 15.11.2019 11:00"
-        android:visibility="visible" />
+        android:text=" on 15.11.2019 11:00"
+        android:visibility="invisible" />
 
     <CheckBox
         android:id="@+id/chCheckProhibitedItems"
@@ -44,13 +46,14 @@
         android:text="First security check on prohibited items" />
 
     <TextView
+        android:id="@+id/chCheckProhibitedItemsDesc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/chCheckProhibitedItems"
         android:layout_marginStart="20sp"
         android:drawableLeft="@drawable/ic_icon_info"
-        android:text="  Confirmed on 15.11.2019 12:30"
-        android:visibility="visible" />
+        android:text=" on 15.11.2019 12:30"
+        android:visibility="invisible" />
 
     <CheckBox
         android:id="@+id/chManualCheckProhibitedItems"
@@ -62,13 +65,14 @@
         android:text="Second security luggage check" />
 
     <TextView
+        android:id="@+id/chManualCheckProhibitedItemsDesc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/chManualCheckProhibitedItems"
         android:layout_marginStart="20sp"
         android:drawableLeft="@drawable/ic_icon_info"
-        android:text="  Confirmed on 15.11.2019 13:00"
-        android:visibility="visible" />
+        android:text=" on 15.11.2019 13:00"
+        android:visibility="invisible" />
 
     <CheckBox
         android:id="@+id/chLoadToAirplane"
@@ -80,13 +84,14 @@
         android:text="Luggage successfully loaded to the airplane" />
 
     <TextView
+        android:id="@+id/chLoadToAirplaneDesc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/chLoadToAirplane"
         android:layout_marginStart="20sp"
         android:drawableLeft="@drawable/ic_icon_info"
-        android:text="  Confirmed on 15.11.2019 15:00"
-        android:visibility="visible" />
+        android:text=" on 15.11.2019 15:00"
+        android:visibility="invisible" />
 
     <CheckBox
         android:id="@+id/chInFlight"
@@ -98,13 +103,14 @@
         android:text="Luggage in transportation" />
 
     <TextView
+        android:id="@+id/chInFlightDesc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/chInFlight"
         android:layout_marginStart="20sp"
         android:drawableLeft="@drawable/ic_icon_info"
-        android:text="  ETA on 15.11.2019 16:00"
-        android:visibility="visible" />
+        android:text=" on 15.11.2019 16:00"
+        android:visibility="invisible" />
 
     <CheckBox
         android:id="@+id/chLoadFromPlain"
@@ -116,13 +122,14 @@
         android:text="Luggage carried out from plain" />
 
     <TextView
+        android:id="@+id/chLoadFromPlainDesc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/chLoadFromPlain"
         android:layout_marginStart="20sp"
         android:drawableLeft="@drawable/ic_icon_info"
-        android:text="  ETA on 15.11.2019 16:40"
-        android:visibility="visible" />
+        android:text=" on 15.11.2019 16:40"
+        android:visibility="invisible" />
 
     <CheckBox
         android:id="@+id/chСonveyorLoad"
@@ -134,12 +141,13 @@
         android:text="Luggage loaded on conveyor" />
 
     <TextView
+        android:id="@+id/chСonveyorLoadDesc"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/chСonveyorLoad"
         android:layout_marginStart="20sp"
         android:drawableLeft="@drawable/ic_icon_info"
-        android:text="  ETA on 15.11.2019 17:00"
-        android:visibility="visible" />
+        android:text=" on 15.11.2019 17:00"
+        android:visibility="invisible" />
 
 </RelativeLayout>
