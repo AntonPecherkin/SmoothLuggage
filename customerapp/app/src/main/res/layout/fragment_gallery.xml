@@ -31,7 +31,7 @@
         android:layout_below="@+id/chCheckIn"
         android:layout_marginStart="20sp"
         android:drawableLeft="@drawable/ic_icon_info"
-        android:text="  More information"
+        android:text="  Confirmed on 15.11.2019 11:00"
         android:visibility="visible" />
 
     <CheckBox
@@ -49,7 +49,7 @@
         android:layout_below="@+id/chCheckProhibitedItems"
         android:layout_marginStart="20sp"
         android:drawableLeft="@drawable/ic_icon_info"
-        android:text="  More information"
+        android:text="  Confirmed on 15.11.2019 12:30"
         android:visibility="visible" />
 
     <CheckBox
@@ -67,7 +67,7 @@
         android:layout_below="@+id/chManualCheckProhibitedItems"
         android:layout_marginStart="20sp"
         android:drawableLeft="@drawable/ic_icon_info"
-        android:text="  More information"
+        android:text="  Confirmed on 15.11.2019 13:00"
         android:visibility="visible" />
 
     <CheckBox
@@ -85,7 +85,7 @@
         android:layout_below="@+id/chLoadToAirplane"
         android:layout_marginStart="20sp"
         android:drawableLeft="@drawable/ic_icon_info"
-        android:text="  More information"
+        android:text="  Confirmed on 15.11.2019 15:00"
         android:visibility="visible" />
 
     <CheckBox
@@ -103,7 +103,7 @@
         android:layout_below="@+id/chInFlight"
         android:layout_marginStart="20sp"
         android:drawableLeft="@drawable/ic_icon_info"
-        android:text="  More information"
+        android:text="  ETA on 15.11.2019 16:00"
         android:visibility="visible" />
 
     <CheckBox
@@ -121,7 +121,7 @@
         android:layout_below="@+id/chLoadFromPlain"
         android:layout_marginStart="20sp"
         android:drawableLeft="@drawable/ic_icon_info"
-        android:text="  More information"
+        android:text="  ETA on 15.11.2019 16:40"
         android:visibility="visible" />
 
     <CheckBox
@@ -139,7 +139,7 @@
         android:layout_below="@+id/chСonveyorLoad"
         android:layout_marginStart="20sp"
         android:drawableLeft="@drawable/ic_icon_info"
-        android:text="  More information"
+        android:text="  ETA on 15.11.2019 17:00"
         android:visibility="visible" />
 
 </RelativeLayout>
