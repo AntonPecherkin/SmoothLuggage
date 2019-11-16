@@ -1,19 +1,145 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+
 
     <TextView
-        android:id="@+id/text_gallery"
-        android:layout_width="match_parent"
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:textAlignment="center"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-</android.support.constraint.ConstraintLayout>
+        android:layout_marginStart="20sp"
+        android:layout_marginTop="50sp"
+        android:clickable="false"
+        android:text="Luggage tracking flow"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/chCheckIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="25sp"
+        android:layout_marginEnd="10sp"
+        android:clickable="false"
+        android:text="Registration/Check in you luggage" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chCheckIn"
+        android:layout_marginStart="20sp"
+        android:drawableLeft="@drawable/ic_icon_info"
+        android:text="  More information"
+        android:visibility="visible" />
+
+    <CheckBox
+        android:id="@+id/chCheckProhibitedItems"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chCheckIn"
+        android:layout_marginTop="25sp"
+        android:clickable="false"
+        android:text="First security check on prohibited items" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chCheckProhibitedItems"
+        android:layout_marginStart="20sp"
+        android:drawableLeft="@drawable/ic_icon_info"
+        android:text="  More information"
+        android:visibility="visible" />
+
+    <CheckBox
+        android:id="@+id/chManualCheckProhibitedItems"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chCheckProhibitedItems"
+        android:layout_marginTop="25sp"
+        android:clickable="false"
+        android:text="Second security luggage check" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chManualCheckProhibitedItems"
+        android:layout_marginStart="20sp"
+        android:drawableLeft="@drawable/ic_icon_info"
+        android:text="  More information"
+        android:visibility="visible" />
+
+    <CheckBox
+        android:id="@+id/chLoadToAirplane"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chManualCheckProhibitedItems"
+        android:layout_marginTop="25sp"
+        android:clickable="false"
+        android:text="Luggage successfully loaded to the airplane" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chLoadToAirplane"
+        android:layout_marginStart="20sp"
+        android:drawableLeft="@drawable/ic_icon_info"
+        android:text="  More information"
+        android:visibility="visible" />
+
+    <CheckBox
+        android:id="@+id/chInFlight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chLoadToAirplane"
+        android:layout_marginTop="25sp"
+        android:clickable="false"
+        android:text="Luggage in transportation" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chInFlight"
+        android:layout_marginStart="20sp"
+        android:drawableLeft="@drawable/ic_icon_info"
+        android:text="  More information"
+        android:visibility="visible" />
+
+    <CheckBox
+        android:id="@+id/chLoadFromPlain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chInFlight"
+        android:layout_marginTop="25sp"
+        android:clickable="false"
+        android:text="Luggage carried out from plain" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chLoadFromPlain"
+        android:layout_marginStart="20sp"
+        android:drawableLeft="@drawable/ic_icon_info"
+        android:text="  More information"
+        android:visibility="visible" />
+
+    <CheckBox
+        android:id="@+id/chСonveyorLoad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chLoadFromPlain"
+        android:layout_marginTop="25sp"
+        android:clickable="false"
+        android:text="Luggage loaded on conveyor" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chСonveyorLoad"
+        android:layout_marginStart="20sp"
+        android:drawableLeft="@drawable/ic_icon_info"
+        android:text="  More information"
+        android:visibility="visible" />
+
+</RelativeLayout>
