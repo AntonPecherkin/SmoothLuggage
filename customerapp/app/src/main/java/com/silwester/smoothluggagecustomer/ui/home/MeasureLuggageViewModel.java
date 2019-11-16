@@ -1,16 +1,16 @@
-package com.silwester.smoothluggagecustomer.ui.share;
+package com.silwester.smoothluggagecustomer.ui.home;
 
 import android.arch.lifecycle.LiveData;
 import android.arch.lifecycle.MutableLiveData;
 import android.arch.lifecycle.ViewModel;
 
-public class ShareViewModel extends ViewModel {
+public class MeasureLuggageViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public ShareViewModel() {
+    public MeasureLuggageViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is share fragment");
+        mText.setValue("MeasureLuggageFragment");
     }
 
     public LiveData<String> getText() {

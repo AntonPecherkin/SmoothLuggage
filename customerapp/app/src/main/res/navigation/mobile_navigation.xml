@@ -3,11 +3,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_home">
+    app:startDestination="@+id/nav_measure_luggage">
 
     <fragment
-        android:id="@+id/nav_home"
-        android:name="com.silwester.smoothluggagecustomer.ui.home.HomeFragment"
+        android:id="@+id/nav_measure_luggage"
+        android:name="com.silwester.smoothluggagecustomer.ui.home.MeasureLuggageFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home" />
 
@@ -29,15 +29,4 @@
         android:label="@string/menu_tools"
         tools:layout="@layout/fragment_tools" />
 
-    <fragment
-        android:id="@+id/nav_share"
-        android:name="com.silwester.smoothluggagecustomer.ui.share.ShareFragment"
-        android:label="@string/menu_share"
-        tools:layout="@layout/fragment_share" />
-
-    <fragment
-        android:id="@+id/nav_send"
-        android:name="com.silwester.smoothluggagecustomer.ui.send.SendFragment"
-        android:label="@string/menu_send"
-        tools:layout="@layout/fragment_send" />
 </navigation>
