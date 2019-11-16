@@ -1,4 +1,4 @@
-package com.silwester.smoothluggagecustomer.ui.gallery;
+package com.silwester.smoothluggagecustomer.ui.track;
 
 import android.os.Bundle;
 import android.os.Handler;

@@ -8,10 +8,10 @@
             android:id="@+id/nav_booking_reference"
             android:title="@string/menu_home" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/nav_track"
             android:title="@string/menu_gallery" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/nav_lost_found"
             android:title="@string/menu_slideshow" />
     </group>
 

@@ -42,14 +42,14 @@
         />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.silwester.smoothluggagecustomer.ui.gallery.TrackFragment"
+        android:id="@+id/nav_track"
+        android:name="com.silwester.smoothluggagecustomer.ui.track.TrackFragment"
         android:label="@string/menu_gallery"
         tools:layout="@layout/fragment_track" />
 
     <fragment
         android:id="@+id/nav_lost_found"
-        android:name="com.silwester.smoothluggagecustomer.ui.slideshow.SlideshowFragment"
+        android:name="com.silwester.smoothluggagecustomer.ui.lost_n_found.LostFoundFragment"
         android:label="@string/menu_gallery"
         tools:layout="@layout/fragment_track" />
 
