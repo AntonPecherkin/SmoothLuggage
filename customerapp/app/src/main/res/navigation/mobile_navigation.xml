@@ -3,13 +3,44 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_measure_luggage">
+    app:startDestination="@+id/nav_booking_reference">
+
+    <fragment
+        android:id="@+id/nav_booking_reference"
+        android:name="com.silwester.smoothluggagecustomer.ui.measure.BookingReferenceFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_booking_reference" >
+
+        <action android:id="@+id/ref_to_measure"
+            app:destination="@id/nav_measure_luggage"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"/>
+    </fragment>
 
     <fragment
         android:id="@+id/nav_measure_luggage"
-        android:name="com.silwester.smoothluggagecustomer.ui.home.MeasureLuggageFragment"
-        android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
+        android:name="com.silwester.smoothluggagecustomer.ui.measure.MeasureLuggageFragment"
+        android:label="Measure luggage"
+        tools:layout="@layout/fragment_luggage_measure"
+        >
+
+        <action android:id="@+id/measure_to_result"
+            app:destination="@id/nav_luggage_result"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"/>
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/nav_luggage_result"
+        android:name="com.silwester.smoothluggagecustomer.ui.measure.LuggageResultFragment"
+        android:label="Luggage Result"
+        tools:layout="@layout/fragment_luggage_result"
+        />
 
     <fragment
         android:id="@+id/nav_gallery"
