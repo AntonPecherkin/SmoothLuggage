@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "433779408245",
+    "firebase_url": "https://smooth-luggage-74602.firebaseio.com",
+    "project_id": "smooth-luggage-74602",
+    "storage_bucket": "smooth-luggage-74602.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:433779408245:android:4b6eae857f2a9103bfe73c",
+        "android_client_info": {
+          "package_name": "com.silwester.smoothluggagecustomer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "433779408245-1ub9b5k34h7eburopc9eq6l3iqi7j18t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDa7gr_9IRAGuqjziyV64mbCOi8Fl8266o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "433779408245-1ub9b5k34h7eburopc9eq6l3iqi7j18t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
