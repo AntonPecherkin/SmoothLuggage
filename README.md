@@ -99,4 +99,4 @@ We have implemented the following functionality:
 
 # Team
 
-[![N|Solid](1.jpeg)](https://startblock.online)
+[![N|Solid](images/1.jpeg)](https://startblock.online)
