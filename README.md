@@ -42,7 +42,7 @@ A system for scanning and tracking your luggage, improving the user experience.
 
 # How does it work?
 
-[![N|Solid](4.png)]
+![N|Solid](4.png)
 
 Passenger:
 1. Uses scanning his baggage using the application and camera
@@ -63,11 +63,11 @@ Anyone:
 
 # User application
 
-[![N|Solid](5.png)]
+![N|Solid](5.png)
 
 # Why blockchain?
 
-[![N|Solid](6.png)]
+![N|Solid](6.png)
 
 - Global database for luggage allowance anywhere in the world using distributed ledger
 - Take open information of each stage
@@ -76,14 +76,14 @@ Anyone:
 
 # Why AR?
 
-[![N|Solid](7.png)]
+![N|Solid](7.png)
 
 - Assess in advance the dimensions of luggage and compliance with the requirements of the airline
 - Comparison with airline requirements and passenger baggage recommendations
 
 # Future work
 
-[![N|Solid](8.png)]
+![N|Solid](8.png)
 
 - Connecting airport barcode scanners to our system
 - Baggage requirements application integration
