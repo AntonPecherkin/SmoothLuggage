@@ -7,16 +7,16 @@ A system for scanning and tracking your luggage, improving the user experience.
 # Structure
 
 <ol type="1" style="font-size: x-large;">
-  <li> <a href="https://github.com/AntonPecherkinSmoothLuggage/#problems">Problems</a>
-  <li> <a href="https://github.com/AntonPecherkin/EncryptRating#blockchains-performance">Solution</a>
-  <li> <a href="https://github.com/AntonPecherkin/EncryptRating#solution">How does it work?</a>
-  <li> <a href="https://github.com/AntonPecherkin/EncryptRating#fantom-blockchain">User application</a>
-  <li> <a href="https://github.com/AntonPecherkin/EncryptRating#user-application">Why blockchain?</a>
-  <li> <a href="https://github.com/AntonPecherkin/EncryptRating#exonum-blockchain">Why AR?</a>
-<li> <a href="https://github.com/AntonPecherkin/EncryptRating#installation">Installation</a>
-<li> <a href="https://github.com/AntonPecherkin/EncryptRating#finally">Future work</a>
-<li> <a href="https://github.com/AntonPecherkin/EncryptRating#finally">Finally</a>
-<li> <a href="https://github.com/AntonPecherkin/EncryptRating#team">Team</a>
+  <li> <a href="https://github.com/AntonPecherkin/SmoothLuggage#problems">Problems</a>
+  <li> <a href="https://github.com/AntonPecherkin/SmoothLuggage#solution">Solution</a>
+  <li> <a href="https://github.com/AntonPecherkin/SmoothLuggage#how-does-it-work">How does it work?</a>
+  <li> <a href="https://github.com/AntonPecherkin/SmoothLuggage#user-application">User application</a>
+  <li> <a href="https://github.com/AntonPecherkin/SmoothLuggage#why-blockchain">Why blockchain?</a>
+  <li> <a href="https://github.com/AntonPecherkin/SmoothLuggage#why-ar">Why AR?</a>
+  <li> <a href="https://github.com/AntonPecherkin/SmoothLuggage#installation">Installation</a>
+<li> <a href="https://github.com/AntonPecherkin/SmoothLuggage#future-work">Future work</a>
+<li> <a href="https://github.com/AntonPecherkin/SmoothLuggage#finally">Finally</a>
+<li> <a href="https://github.com/AntonPecherkin/SmoothLuggage#team">Team</a>
 </ol>
 
 # Problems
