@@ -21,7 +21,7 @@ A system for scanning and tracking your luggage, improving the user experience.
 
 # Problems
 
-[![N|Solid](2.png)]
+[N|Solid](2.png)
 
 - 25 millions of pieces of luggage get lost every year
 - Airlines are tightening the restrictions on how much luggage you can bring in the cabin with you, encouraging flyers to check in their bags instead. 
@@ -31,7 +31,7 @@ A system for scanning and tracking your luggage, improving the user experience.
 
 # Solution
 
-[![N|Solid](3.png)]
+[N|Solid](3.png)
 
 - Assess in advance the dimensions of luggage and compliance with the requirements of the airline
 - Recording of each step of baggage handling in the registry and message to the user
