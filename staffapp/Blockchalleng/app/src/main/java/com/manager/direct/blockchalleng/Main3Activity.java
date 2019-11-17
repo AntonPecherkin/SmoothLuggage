@@ -13,6 +13,7 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.google.android.gms.vision.barcode.Barcode;
+import com.google.firebase.FirebaseApp;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
@@ -24,7 +25,7 @@ public class Main3Activity extends AppCompatActivity implements BarcodeReader.Ba
 
     private BarcodeReader barcodeReader;
     FirebaseDatabase database;
-    DatabaseReference myRef;
+    private DatabaseReference mDatabase;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -46,8 +47,11 @@ public class Main3Activity extends AppCompatActivity implements BarcodeReader.Ba
                     }
                 });
         alertDialog.show();
-//         database = FirebaseDatabase.getInstance();
-//         myRef = database.getReference("message");
+
+        FirebaseApp.initializeApp(this);
+        mDatabase = FirebaseDatabase.getInstance().getReference("message");
+                int i = 5;// + (new Integer(mDatabase.getKey()) % 7);
+        mDatabase.setValue(i);
     }
 
 
