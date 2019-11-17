@@ -2,7 +2,7 @@
 
 A system for scanning and tracking your luggage, improving the user experience.
 
-[![N|Solid](1.jpg)](https://startblock.online)
+[![N|Solid](1.jpeg)](https://startblock.online)
 
 # Structure
 
@@ -21,6 +21,8 @@ A system for scanning and tracking your luggage, improving the user experience.
 
 # Problems
 
+[![N|Solid](2.png)]
+
 - 25 millions of pieces of luggage get lost every year
 - Airlines are tightening the restrictions on how much luggage you can bring in the cabin with you, encouraging flyers to check in their bags instead. 
 - Packing according to airline restrictions can be a pain. 
@@ -28,6 +30,8 @@ A system for scanning and tracking your luggage, improving the user experience.
 - Passengers want to control the status of their luggage and know the location
 
 # Solution
+
+[![N|Solid](3.png)]
 
 - Assess in advance the dimensions of luggage and compliance with the requirements of the airline
 - Recording of each step of baggage handling in the registry and message to the user
@@ -37,6 +41,8 @@ A system for scanning and tracking your luggage, improving the user experience.
 - Report the location of luggage in case of loss
 
 # How does it work?
+
+[![N|Solid](4.png)]
 
 Passenger:
 1. Uses scanning his baggage using the application and camera
@@ -57,7 +63,11 @@ Anyone:
 
 # User application
 
+[![N|Solid](5.png)]
+
 # Why blockchain?
+
+[![N|Solid](6.png)]
 
 - Global database for luggage allowance anywhere in the world using distributed ledger
 - Take open information of each stage
@@ -66,10 +76,14 @@ Anyone:
 
 # Why AR?
 
+[![N|Solid](7.png)]
+
 - Assess in advance the dimensions of luggage and compliance with the requirements of the airline
 - Comparison with airline requirements and passenger baggage recommendations
 
 # Future work
+
+[![N|Solid](8.png)]
 
 - Connecting airport barcode scanners to our system
 - Baggage requirements application integration
@@ -85,4 +99,4 @@ We have implemented the following functionality:
 
 # Team
 
-
+[![N|Solid](1.jpeg)](https://startblock.online)
