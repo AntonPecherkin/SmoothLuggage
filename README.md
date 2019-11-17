@@ -2,7 +2,7 @@
 
 A system for scanning and tracking your luggage, improving the user experience.
 
-[![N|Solid](1.jpeg)](https://startblock.online)
+[![N|Solid](images/1.jpeg)](https://startblock.online)
 
 # Structure
 
@@ -21,7 +21,7 @@ A system for scanning and tracking your luggage, improving the user experience.
 
 # Problems
 
-![N|Solid](2.png)
+![N|Solid](images/20.png)
 
 - 25 millions of pieces of luggage get lost every year
 - Airlines are tightening the restrictions on how much luggage you can bring in the cabin with you, encouraging flyers to check in their bags instead. 
@@ -31,7 +31,7 @@ A system for scanning and tracking your luggage, improving the user experience.
 
 # Solution
 
-![N|Solid](3.png)
+![N|Solid](images/30.png)
 
 - Assess in advance the dimensions of luggage and compliance with the requirements of the airline
 - Recording of each step of baggage handling in the registry and message to the user
@@ -42,7 +42,7 @@ A system for scanning and tracking your luggage, improving the user experience.
 
 # How does it work?
 
-![N|Solid](4.png)
+![N|Solid](images/40.png)
 
 Passenger:
 1. Uses scanning his baggage using the application and camera
@@ -63,11 +63,11 @@ Anyone:
 
 # User application
 
-![N|Solid](5.png)
+![N|Solid](images/70.png)
 
 # Why blockchain?
 
-![N|Solid](6.png)
+![N|Solid](images/50.png)
 
 - Global database for luggage allowance anywhere in the world using distributed ledger
 - Take open information of each stage
@@ -76,14 +76,14 @@ Anyone:
 
 # Why AR?
 
-![N|Solid](7.png)
+![N|Solid](images/60.png)
 
 - Assess in advance the dimensions of luggage and compliance with the requirements of the airline
 - Comparison with airline requirements and passenger baggage recommendations
 
 # Future work
 
-![N|Solid](8.png)
+![N|Solid](images/80.png)
 
 - Connecting airport barcode scanners to our system
 - Baggage requirements application integration
