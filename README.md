@@ -71,12 +71,18 @@ Anyone:
 
 # Future work
 
+- Connecting airport barcode scanners to our system
+- Baggage requirements application integration
+- Piloting the system at the airport
+
 # Finally
 
+We have implemented the following functionality:
+- AR for measuring baggage dimensions and comparing with airline requirements
+- A mobile Android application for a passenger with the function of tracking baggage status, searching and estimating the time before baggage claim
+- Smart contract for writing information to the Ethereum blockchain
+- An application for scanning barcodes and recording current information in the blockchain
 
 # Team
 
-- Ruslan
-- Peter
-- Andrei
-- Anton
+
