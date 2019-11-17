@@ -7,18 +7,16 @@ A system for scanning and tracking your luggage, improving the user experience.
 # Structure
 
 <ol type="1" style="font-size: x-large;">
-  <li> <a href="https://github.com/AntonPecherkin/EncryptRating#about">About</a>
-  <li> <a href="https://github.com/AntonPecherkin/EncryptRating#blockchains-performance">Blockchains performance</a>
-  <li> <a href="https://github.com/AntonPecherkin/EncryptRating#solution">Solution</a>
-<ol type="a" style="font-size: large;">
-  <li> <a href="https://github.com/AntonPecherkin/EncryptRating#user-application">User application</a>
-  <li> <a href="https://github.com/AntonPecherkin/EncryptRating#exonum-blockchain">Exonum blockchain</a>
-  <li> <a href="https://github.com/AntonPecherkin/EncryptRating#fantom-blockchain">Fantom blockchain</a>
-  <li> <a href="https://github.com/AntonPecherkin/EncryptRating#blockchain-comparison">Blockchain comparison</a>
-</ol>
-<li> <a href="https://github.com/AntonPecherkin/EncryptRating#installation">Installation</a>
-<li> <a href="https://github.com/AntonPecherkin/EncryptRating#finally">Finally</a>
-<li> <a href="https://github.com/AntonPecherkin/EncryptRating#team">Team</a>
+  <li> <a href="https://github.com/AntonPecherkin/SmoothLuggage#problems">Problems</a>
+  <li> <a href="https://github.com/AntonPecherkin/SmoothLuggage#solution">Solution</a>
+  <li> <a href="https://github.com/AntonPecherkin/SmoothLuggage#how-does-it-work">How does it work?</a>
+  <li> <a href="https://github.com/AntonPecherkin/SmoothLuggage#user-application">User application</a>
+  <li> <a href="https://github.com/AntonPecherkin/SmoothLuggage#why-blockchain">Why blockchain?</a>
+  <li> <a href="https://github.com/AntonPecherkin/SmoothLuggage#why-ar">Why AR?</a>
+  <li> <a href="https://github.com/AntonPecherkin/SmoothLuggage#installation">Installation</a>
+<li> <a href="https://github.com/AntonPecherkin/SmoothLuggage#future-work">Future work</a>
+<li> <a href="https://github.com/AntonPecherkin/SmoothLuggage#finally">Finally</a>
+<li> <a href="https://github.com/AntonPecherkin/SmoothLuggage#team">Team</a>
 </ol>
 
 # Problems
@@ -41,11 +39,11 @@ A system for scanning and tracking your luggage, improving the user experience.
 # How does it work?
 
 Passenger:
-1. Uses applications to scan his baggage using the application and camera
-2. Selects and pays baggage suitable for the requirements of a particular airline
+1. Uses scanning his baggage using the application and camera
+2. Selects baggage plan and pays service fees suitable for the requirements of a particular airline
 3. Checks in for a flight, synchronizes the application with a barcode and handles luggage
-4. Gets information about the passage of each stage in the inspection and loading of baggage
-5. Make sure luggage on board
+4. Gets information about each stage in the inspection and loading of his baggage
+5. Stays calm as luggage loaded on board
 6. Upon arrival, receives an estimate of the time to baggage claim and current status
 7. In case of loss, receives a luggage geo-position and delivery instructions
 
@@ -56,6 +54,8 @@ Staff:
 
 Anyone:
 1.Scans a barcode and sends a transaction with a baggage geoposition in case of loss
+
+# User application
 
 # Why blockchain?
 
@@ -70,6 +70,8 @@ Anyone:
 - Comparison with airline requirements and passenger baggage recommendations
 
 # Future work
+
+# Finally
 
 
 # Team
