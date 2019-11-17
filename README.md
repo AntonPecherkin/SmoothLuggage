@@ -7,7 +7,7 @@ A system for scanning and tracking your luggage, improving the user experience.
 # Structure
 
 <ol type="1" style="font-size: x-large;">
-  <li> <a href="https://github.com/AntonPecherkin/EncryptRating#about">Problems</a>
+  <li> <a href="https://github.com/AntonPecherkinSmoothLuggage/#problems">Problems</a>
   <li> <a href="https://github.com/AntonPecherkin/EncryptRating#blockchains-performance">Solution</a>
   <li> <a href="https://github.com/AntonPecherkin/EncryptRating#solution">How does it work?</a>
   <li> <a href="https://github.com/AntonPecherkin/EncryptRating#fantom-blockchain">User application</a>
