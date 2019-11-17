@@ -7,16 +7,14 @@ A system for scanning and tracking your luggage, improving the user experience.
 # Structure
 
 <ol type="1" style="font-size: x-large;">
-  <li> <a href="https://github.com/AntonPecherkin/EncryptRating#about">About</a>
-  <li> <a href="https://github.com/AntonPecherkin/EncryptRating#blockchains-performance">Blockchains performance</a>
-  <li> <a href="https://github.com/AntonPecherkin/EncryptRating#solution">Solution</a>
-<ol type="a" style="font-size: large;">
-  <li> <a href="https://github.com/AntonPecherkin/EncryptRating#user-application">User application</a>
-  <li> <a href="https://github.com/AntonPecherkin/EncryptRating#exonum-blockchain">Exonum blockchain</a>
-  <li> <a href="https://github.com/AntonPecherkin/EncryptRating#fantom-blockchain">Fantom blockchain</a>
-  <li> <a href="https://github.com/AntonPecherkin/EncryptRating#blockchain-comparison">Blockchain comparison</a>
-</ol>
+  <li> <a href="https://github.com/AntonPecherkin/EncryptRating#about">Problems</a>
+  <li> <a href="https://github.com/AntonPecherkin/EncryptRating#blockchains-performance">Solution</a>
+  <li> <a href="https://github.com/AntonPecherkin/EncryptRating#solution">How does it work?</a>
+  <li> <a href="https://github.com/AntonPecherkin/EncryptRating#fantom-blockchain">User application</a>
+  <li> <a href="https://github.com/AntonPecherkin/EncryptRating#user-application">Why blockchain?</a>
+  <li> <a href="https://github.com/AntonPecherkin/EncryptRating#exonum-blockchain">Why AR?</a>
 <li> <a href="https://github.com/AntonPecherkin/EncryptRating#installation">Installation</a>
+<li> <a href="https://github.com/AntonPecherkin/EncryptRating#finally">Future work</a>
 <li> <a href="https://github.com/AntonPecherkin/EncryptRating#finally">Finally</a>
 <li> <a href="https://github.com/AntonPecherkin/EncryptRating#team">Team</a>
 </ol>
@@ -57,6 +55,8 @@ Staff:
 Anyone:
 1.Scans a barcode and sends a transaction with a baggage geoposition in case of loss
 
+# User application
+
 # Why blockchain?
 
 - Global database for luggage allowance anywhere in the world using distributed ledger
@@ -70,6 +70,8 @@ Anyone:
 - Comparison with airline requirements and passenger baggage recommendations
 
 # Future work
+
+# Finally
 
 
 # Team
