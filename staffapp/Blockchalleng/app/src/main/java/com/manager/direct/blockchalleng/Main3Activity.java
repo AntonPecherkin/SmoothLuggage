@@ -50,7 +50,9 @@ public class Main3Activity extends AppCompatActivity implements BarcodeReader.Ba
 
         FirebaseApp.initializeApp(this);
         mDatabase = FirebaseDatabase.getInstance().getReference("message");
-
+        int add = new Integer(mDatabase.getKey());
+        int i = 1+add;// + (new Integer(mDatabase.getKey()) % 7);
+        mDatabase.setValue(i);
     }
 
 
@@ -70,9 +72,7 @@ public class Main3Activity extends AppCompatActivity implements BarcodeReader.Ba
         barcodeReader.playBeep();
         EtheriumRunner myTask = new EtheriumRunner();
         myTask.execute();
-        int add = new Integer(mDatabase.getKey());
-        int i = 1+add;// + (new Integer(mDatabase.getKey()) % 7);
-        mDatabase.setValue(i);
+
 //
 //        int i = 1 + (new Integer(myRef.getKey()) % 7);
 //        myRef.setValue(i);
