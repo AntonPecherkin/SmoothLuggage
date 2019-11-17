@@ -39,11 +39,11 @@ A system for scanning and tracking your luggage, improving the user experience.
 # How does it work?
 
 Passenger:
-1. Uses applications to scan his baggage using the application and camera
-2. Selects and pays baggage suitable for the requirements of a particular airline
+1. Uses scanning his baggage using the application and camera
+2. Selects baggage plan and pays service fees suitable for the requirements of a particular airline
 3. Checks in for a flight, synchronizes the application with a barcode and handles luggage
-4. Gets information about the passage of each stage in the inspection and loading of baggage
-5. Make sure luggage on board
+4. Gets information about each stage in the inspection and loading of his baggage
+5. Stays calm as luggage loaded on board
 6. Upon arrival, receives an estimate of the time to baggage claim and current status
 7. In case of loss, receives a luggage geo-position and delivery instructions
 
